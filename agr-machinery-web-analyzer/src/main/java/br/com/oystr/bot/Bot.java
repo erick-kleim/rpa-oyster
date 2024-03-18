@@ -54,8 +54,13 @@ public interface Bot {
 	}
 
 	default String findTextByXPath(String xpath) {
-		WebElement element = getDriver().findElement(By.xpath(xpath));
-
+		WebElement element;
+		try {
+		element = getDriver().findElement(By.xpath(xpath));
+		}catch (Exception e) {
+			return STR_ELEMENT_NOT_FOUND;
+		}
+		
 		if (element == null)
 			return STR_ELEMENT_NOT_FOUND;
 

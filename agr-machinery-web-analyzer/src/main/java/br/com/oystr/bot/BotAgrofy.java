@@ -10,10 +10,10 @@ import br.com.oystr.entity.Machine;
 public class BotAgrofy implements Bot {
 	private static final String XPATH_PRICE = "//*[@id=\"ProductInfo\"]/div[2]/span";
 	private static final String XPATH_CITY = "//*[@id=\"pdp-body\"]/div[3]/div/div[2]/section[2]/span/span[1]/div[2]/div/ul/li[4]/span/ul/li";
-	private static final String XPATH_WORKED_HOURS = "//*[@id=\"pdp-body\"]/div[3]/div/div[2]/section[2]/span/span[1]/div[2]/div/ul/li[10]/span/ul/li";
+	private static final String XPATH_WORKED_HOURS =  "//*[@id=\"pdp-body\"]/div[3]/div/div[2]/section[2]/span/span[1]/div[2]/div/ul/li[10]/span/ul/li";
 	private static final String XPATH_YEAR = "//*[@id=\"pdp-body\"]/div[3]/div/div[2]/section[2]/span/span[1]/div[2]/div/ul/li[8]/span/ul/li";
 	private static final String XPATH_MAKE = "//*[@id=\"pdp-body\"]/div[3]/div/div[2]/section[2]/span/span[1]/div[2]/div/ul/li[6]/span/ul/li";
-	private static final String XPATH_CONTRACT_TYPE = "//*[@id=\"pdp-body\"]/div[3]/div/div[2]/section[2]/span/span[1]/div[2]/div/ul/li[1]/span/ul/li";
+	private static final String XPATH_CONTRACT_TYPE =  "//*[@id=\"pdp-body\"]/div[3]/div/div[2]/section[2]/span/span[1]/div[2]/div/ul/li[1]/span/ul/li";
 	private static final String XPATH_MODEL = "//*[@id=\"pdp-body\"]/div[3]/div/div[2]/section[2]/span/span[1]/div[2]/div/ul/li[7]/span/ul/li";
 	private static final String MAIN_PHOTO = "//*[@id=\"pdp-body\"]/div[3]";
 	private static final String DIV_IMAGE_SLIDES = "//*[@id=\"pdp-body\"]/div[3]/div[1]/div/div/div/div[2]/div[1]/div";

@@ -41,18 +41,13 @@ public class Main {
 	}
 
 	private static Stream<String> hardCodedInput() {
-		return Stream.of(
-//				"a:a"
-//				,
-//				"https://www.noexiste.com.br/trator-massey-ferguson-4292hd-ano-2015-usado-200035.html"
-//				,
-//				"https://www.agrofy.erro"
-//				,
-				"https://www.agrofy.com.br/trator-massey-ferguson-4292hd-ano-2015-usado-200035.html"
-				,
-				"https://www.tratoresecolheitadeiras.com.br/veiculo/itaiopolis/sc/trator/massey-ferguson/mf-4275/2019/tracao-4x4/cabine-cabinado/agrocomercial-rudnik---landini/1127064"
-				,
-				"https://www.mercadomaquinas.com.br/anuncio/229386-retro-escavadeira-case-580n-2019-belo-horizonte-mg"
+		return Stream.of(				
+				"https://www.agrofy.com.br/trator-massey-ferguson-4292hd-ano-2015-usado-200035.html",
+				"https://www.agrofy.com.br/trator-bh-224-4x4-valtra.html",
+				"https://www.tratoresecolheitadeiras.com.br/veiculo/itaiopolis/sc/trator/massey-ferguson/mf-4275/2019/tracao-4x4/cabine-cabinado/agrocomercial-rudnik---landini/1127064",
+				"https://www.tratoresecolheitadeiras.com.br/veiculo/artur-nogueira/sp/retro-escavadeira/randon/rd406/2020/tracao-4x4/cabine-fechada/dovigo-tratores/1167729",
+				"https://www.mercadomaquinas.com.br/anuncio/229386-retro-escavadeira-case-580n-2019-belo-horizonte-mg",				
+				"https://www.mercadomaquinas.com.br/anuncio/228231-retro-escavadeira-fiatallis-fb80-2-2001-aruja-sp" //ok, porém sem info worked hours
 				);
 	}
 
@@ -60,13 +55,5 @@ public class Main {
 		System.out.println(machine);
 	}
 }
-
-//		"www.agrofy.com.br/trator-massey-ferguson-4292hd-ano-2015-usado-200035.html"
-//		"https://www.agrofy.com.br/trator-mahindra-6075-novo-80cv-4x4-4cilindros.html"
-//		"https://www.tratoresecolheitadeiras.com.br/veiculo/uberlandia/mg/plataforma-colheitadeira/gts/flexer-xs-45/2023/45-pes/draper/triamaq-tratores/1028839"
-//		"https://www.tratoresecolheitadeiras.com.br/veiculo/uberlandia/mg/plataforma-colheitadeira/gts/produttiva-1250/2022/caracol/12-linhas/triamaq-tratores/994257"
-//		"https://www.mercadomaquinas.com.br/anuncio/218193-escavadeira-caterpillar-320c-2006-aruja-sp"
-//		"https://www.mercadomaquinas.com.br/anuncio/214554-pa-carregadeira-caterpillar-950h-2012-curitiba-pr"
-//		"https://www.mercadomaquinas.com.br/anuncio/229386-retro-escavadeira-case-580n-2019-belo-horizonte-mg"
 
 
