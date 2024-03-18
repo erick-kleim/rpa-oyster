@@ -44,10 +44,12 @@ You can run the application by executing the provided JAR file. Follow these ste
     java -jar website-analyzer.jar
     ```
     hard coded URLs:
-    - [https://www.mercadomaquinas.com.br/anuncio/214554-pa-carregadeira-caterpillar-950h-2012-curitiba-pr](https://www.mercadomaquinas.com.br/anuncio/214554-pa-carregadeira-caterpillar-950h-2012-curitiba-pr)
-    - [https://www.agrofy.com.br/trator-massey-ferguson-4292hd-ano-2015-usado-200035.html](https://www.agrofy.com.br/trator-massey-ferguson-4292hd-ano-2015-usado-200035.html)
-    - [https://www.tratoresecolheitadeiras.com.br/veiculo/artur-nogueira/sp/retro-escavadeira/randon/rd406/2020/tracao-4x4/cabine-fechada/dovigo-tratores/1167729](https://www.tratoresecolheitadeiras.com.br/veiculo/artur-nogueira/sp/retro-escavadeira/randon/rd406/2020/tracao-4x4/cabine-fechada/dovigo-tratores/1167729)
-
+    - https://www.agrofy.com.br/trator-massey-ferguson-4292hd-ano-2015-usado-200035.html
+    - https://www.agrofy.com.br/trator-bh-224-4x4-valtra.html
+    - https://www.tratoresecolheitadeiras.com.br/veiculo/itaiopolis/sc/trator/massey-ferguson/mf-4275/2019/tracao-4x4/cabine-cabinado/agrocomercial-rudnik---landini/1127064
+    - https://www.tratoresecolheitadeiras.com.br/veiculo/artur-nogueira/sp/retro-escavadeira/randon/rd406/2020/tracao-4x4/cabine-fechada/dovigo-tratores/1167729
+    - https://www.mercadomaquinas.com.br/anuncio/229386-retro-escavadeira-case-580n-2019-belo-horizonte-mg
+    - https://www.mercadomaquinas.com.br/anuncio/228231-retro-escavadeira-fiatallis-fb80-2-2001-aruja-sp
 
 ## Future Development
 
@@ -59,3 +61,7 @@ One potential area for future development is implementing a strategy pattern for
 - **Report Generation:** Develop functionality to generate reports, such as exporting the collected data to a PDF file. This could provide users with a more structured and visually appealing way to access the information.
 
 These enhancements would provide users with greater flexibility in how they interact with and utilize the data collected by the RPA tool.
+
+## Known Issues
+
+- [**Element Location Issue:**](https://github.com/erick-kleim/rpa-oyster/issues/1) Executions for some URLs are encountering difficulty in locating specific elements on web pages. We're actively investigating this issue and working to resolve it for smoother operation.
