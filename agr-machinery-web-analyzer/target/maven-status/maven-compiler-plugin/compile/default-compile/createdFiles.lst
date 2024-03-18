@@ -1,0 +1,7 @@
+br/com/oystr/bot/Bot.class
+br/com/oystr/bot/BotAgrofy.class
+br/com/oystr/bot/factory/BotFactory.class
+br/com/oystr/entity/Machine.class
+br/com/oystr/Main.class
+br/com/oystr/bot/BotMercadoMaquinas.class
+br/com/oystr/bot/BotTratoresColheitadeiras.class
