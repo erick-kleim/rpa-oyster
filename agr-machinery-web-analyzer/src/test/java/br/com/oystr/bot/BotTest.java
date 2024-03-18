@@ -40,6 +40,6 @@ public class BotTest {
     	bot.setUrl(URL);
     	String afterSet = bot.getMachine().getUrl();
     	assertEquals(URL, afterSet);
-	}
+    }
 
 }
