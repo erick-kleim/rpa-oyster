@@ -48,3 +48,14 @@ You can run the application by executing the provided JAR file. Follow these ste
     - [https://www.agrofy.com.br/trator-massey-ferguson-4292hd-ano-2015-usado-200035.html](https://www.agrofy.com.br/trator-massey-ferguson-4292hd-ano-2015-usado-200035.html)
     - [https://www.tratoresecolheitadeiras.com.br/veiculo/artur-nogueira/sp/retro-escavadeira/randon/rd406/2020/tracao-4x4/cabine-fechada/dovigo-tratores/1167729](https://www.tratoresecolheitadeiras.com.br/veiculo/artur-nogueira/sp/retro-escavadeira/randon/rd406/2020/tracao-4x4/cabine-fechada/dovigo-tratores/1167729)
 
+
+## Future Development
+
+### Strategy Pattern for Information Output
+
+One potential area for future development is implementing a strategy pattern for the output of collected information. This would allow for flexible handling of how the data is presented. Some options to consider within this pattern include:
+
+- **Data Storage:** Enhance the application to store collected information in a database for easier management and analysis.
+- **Report Generation:** Develop functionality to generate reports, such as exporting the collected data to a PDF file. This could provide users with a more structured and visually appealing way to access the information.
+
+These enhancements would provide users with greater flexibility in how they interact with and utilize the data collected by the RPA tool.
