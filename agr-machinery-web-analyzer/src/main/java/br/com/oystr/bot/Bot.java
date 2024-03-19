@@ -37,6 +37,10 @@ public interface Bot {
 	Set<String> findPictures();
 
 	default Machine fetch() {
+		return buildMachine();
+	}
+	
+	default Machine buildMachine() {
 		return setUrl(getDriver().getCurrentUrl())
 			.setModel()
 			.setContractType()
