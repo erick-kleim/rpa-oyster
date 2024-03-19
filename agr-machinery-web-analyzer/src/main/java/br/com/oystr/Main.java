@@ -47,7 +47,7 @@ public class Main {
 				"https://www.tratoresecolheitadeiras.com.br/veiculo/itaiopolis/sc/trator/massey-ferguson/mf-4275/2019/tracao-4x4/cabine-cabinado/agrocomercial-rudnik---landini/1127064",
 				"https://www.tratoresecolheitadeiras.com.br/veiculo/artur-nogueira/sp/retro-escavadeira/randon/rd406/2020/tracao-4x4/cabine-fechada/dovigo-tratores/1167729",
 				"https://www.mercadomaquinas.com.br/anuncio/229386-retro-escavadeira-case-580n-2019-belo-horizonte-mg",				
-				"https://www.mercadomaquinas.com.br/anuncio/228231-retro-escavadeira-fiatallis-fb80-2-2001-aruja-sp" //ok, porém sem info worked hours
+				"https://www.mercadomaquinas.com.br/anuncio/228231-retro-escavadeira-fiatallis-fb80-2-2001-aruja-sp"
 				);
 	}
 
